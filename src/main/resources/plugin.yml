@@ -1,0 +1,6 @@
+name: EloriaAPI
+version: '${project.version}'
+main: be.alexandre01.eloriamc.server.SpigotPlugin
+softdepend:
+  - UltraPermissions
+  - DreamNetwork-Core

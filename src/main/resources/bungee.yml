@@ -1,0 +1,6 @@
+main: be.alexandre01.eloriamc.proxy.BungeePlugin
+name: EloriaAPI
+version: ${project.version}
+depends:
+  - UltraPermissions
+  - DreamNetwork-Core
