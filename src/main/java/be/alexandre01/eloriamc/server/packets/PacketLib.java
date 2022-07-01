@@ -20,6 +20,7 @@ public class PacketLib {
 
 
     public PacketLib(Plugin plugin) {
+        instance = this;
         this.plugin = plugin;
         injectorManager = new PacketInjectorManager();
         npcFactory = new NPCFactory(plugin);
